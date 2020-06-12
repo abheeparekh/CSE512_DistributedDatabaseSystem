@@ -30,7 +30,7 @@ You can use partial data for testing.
 
 5. Implement a Python function loadRatings() that takes a file system path that contains the rating file as input. loadRatings() then load all ratings into a table (saved in PostgreSQL) named ratings that has the following schema
 
-userid(int) â€“ movieid(int) â€“ rating(float)
+userid(int) – movieid(int) – rating(float)
 
 For your testing, we provide test_data.txt which provides a small fraction of rating.dat file. Be noted that we will use a larger dataset during evaluation. Also note that we don't load timestamps of ratings.
 
